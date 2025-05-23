@@ -12,7 +12,7 @@ def swap(x, y):
         x = x - y
         return ("The new x is " + str(x) + " and the new y is " + str(y))
     else:
-        return - 1
+        return 0
 
 
 # Task 2
