@@ -6,7 +6,13 @@ def swap(x, y):
     - Return -1 if x and y is not numeric, and
     - print the swapped values if both x and y are numeric.
     """
-    return
+    if type(x) == int and type(y) == int:
+        x = x + y
+        y = x - y
+        x = x - y
+        return ("The new x is " + str(x) + " and the new y is " + str(y))
+    else:
+        return - 1
 
 
 # Task 2

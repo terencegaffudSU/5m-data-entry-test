@@ -5,7 +5,8 @@ def find_and_replace(lst, find_val, replace_val):
     - lst must be a list.
     - Return the modified list.
     """
-    return
+    return [replace_val if x == find_val else x for x in lst]
+ 
 
 
 # Task 2
